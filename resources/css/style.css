@@ -2,6 +2,7 @@ html {
 font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
 header {
   justify-content: space-between;
   align-items: center;
@@ -26,15 +27,59 @@ header {
 }
 
 .logo-title span:first-child {
-  color: blue;
+  color: DarkSlateBlue;
 }
 
 .logo-title span:last-child {
-  color: red;
+  color: Crimson;
 }
 
 nav a {
-  color: FireBrick;
+  color: Crimson;
   padding-left: 16px;
+  text-decoration: none;
+}
+
+/* Banner */
+.banner {
+  padding: 32px 24px;
+  background-color: BurlyWood;
+  align-items: center;
+}
+
+.banner-image {
+  width: 60%;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-cta {
+  padding-left: 24px;
+  width: 30%;
+}
+
+.banner-cta h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: MidnightBlue;
+}
+
+.banner-cta p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 2rem 0;
+  color: MidnightBlue;
+}
+
+.banner-cta a {
+  display: block;
+  text-align: center;
+  background-color: FireBrick;
+  padding: 1rem 1.25rem;
+  color: white;
   text-decoration: none;
 }
