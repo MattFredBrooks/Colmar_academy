@@ -238,3 +238,16 @@ p {
   color: MidnightBlue;
   padding-top: 2rem;
 }
+
+/* Footer */
+footer {
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid BurlyWood;
+}
+
+footer a {
+  color: Crimson;
+  margin-left: 1rem;
+}
