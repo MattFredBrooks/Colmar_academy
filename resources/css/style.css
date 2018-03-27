@@ -90,7 +90,7 @@ nav a {
 /* Information main - Quote*/
 .quote {
   width: 60%;
-  padding: 2rem 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .quote-image img {
@@ -112,11 +112,13 @@ nav a {
 }
 
 /* Information main - Info links*/
+.info {
+  padding: 2rem 1.5rem;
+}
+
 .info-links {
   width: 40%;
   flex-direction: column;
-  padding: 1rem 0px;
-  outline: 1px solid BurlyWood;
 }
 
 .info-links div {
@@ -135,6 +137,10 @@ nav a {
 .info-image img {
   max-width: 100%;
   height: auto;
+}
+
+.first-image {
+  padding-top: 0px;
 }
 
 .info-text {
@@ -216,4 +222,19 @@ p {
 
 .card-text {
   padding: 1rem;
+}
+
+/* Thesis exhibit */
+.quote-image video {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.thesis {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: MidnightBlue;
+  padding-top: 2rem;
 }
