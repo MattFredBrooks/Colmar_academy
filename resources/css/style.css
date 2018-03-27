@@ -153,9 +153,67 @@ p {
 }
 
 .info-text a {
-  color: Maroon;
+  color: Crimson;
 }
 
 .info-highlight {
   background-color: BurlyWood;
+}
+
+.info-highlight a {
+  color: Maroon;
+}
+
+/* Learning section */
+.learning {
+  background-color: BurlyWood;
+  padding: 2rem 4.5rem;
+}
+
+.learning h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: MidnightBlue;
+  padding-bottom: 2rem;
+}
+
+.learning-cards {
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.card:nth-child(3n+2) {
+  margin: 0px 2rem;
+  margin-bottom: 2rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-text h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: MidnightBlue;
+}
+
+.card-text h3,
+p {
+  padding-bottom: 0.5rem;
+}
+
+.card-text a {
+  color: Crimson;
+  padding-bottom: 1.5rem;
+}
+
+.card-text {
+  padding: 1rem;
 }
