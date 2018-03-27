@@ -3,8 +3,27 @@ font-family: 'Roboto', sans-serif;
 font-size: 16px;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Rubik', sans-serif;
+  color: MidnightBlue;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
 a {
   text-decoration: none;
+  color: Crimson;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: MidnightBlue;
 }
 
 /* Header */
@@ -39,15 +58,15 @@ header {
   color: Crimson;
 }
 
-nav a {
-  color: Crimson;
-  padding-left: 1rem;
+nav a,
+footer a {
+  margin-left: 1rem;
 }
 
 /* Banner */
 .banner {
   padding: 2rem 1.5rem;
-  background-color: BurlyWood;
+  background-color: hsl(40, 45%, 80%);
   align-items: center;
 }
 
@@ -67,8 +86,6 @@ nav a {
 
 .banner-cta h2 {
   font-size: 3rem;
-  font-weight: bold;
-  color: MidnightBlue;
 }
 
 .banner-cta p {
@@ -87,13 +104,20 @@ nav a {
   color: white;
 }
 
+.banner-cta a:hover {
+  background-color: MidnightBlue;
+  transition: 600ms;
+  text-decoration: none;
+}
+
 /* Information main - Quote*/
 .quote {
   width: 60%;
   padding-right: 1.5rem;
 }
 
-.quote-image img {
+.quote-image img,
+.quote-image video {
   max-width: 100%;
   height: auto;
   padding-bottom: 2rem;
@@ -101,9 +125,7 @@ nav a {
 
 .quote h2 {
   font-size: 2rem;
-  font-weight: bold;
   padding-bottom: 1.5rem;
-  color: MidnightBlue;
 }
 
 .quote-source {
@@ -126,7 +148,7 @@ nav a {
 }
 
 .info-link {
-  border-bottom: 1px solid BurlyWood;
+  border-bottom: 1px solid hsl(40, 45%, 80%);
 }
 
 .info-image {
@@ -152,40 +174,33 @@ p {
   padding-bottom: 0.5rem;
 }
 
-.info-text h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: MidnightBlue;
-}
-
-.info-text a {
-  color: Crimson;
-}
-
 .info-highlight {
-  background-color: BurlyWood;
+  background-color: hsl(40, 45%, 80%);
 }
 
 .info-highlight a {
   color: Maroon;
 }
 
-/* Learning section */
-.learning {
-  background-color: BurlyWood;
-  padding: 2rem 4.5rem;
+.info-highlight a:hover {
+  color: MidnightBlue;
 }
 
-.learning h2 {
+/* Learning section */
+.learning {
+  background-color: hsl(40, 45%, 80%);
+  padding: 0px 4.5rem;
+}
+
+.information h2 {
   text-align: center;
   font-size: 3rem;
-  font-weight: bold;
-  color: MidnightBlue;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .learning-cards {
   flex-wrap: wrap;
+  padding-top: 2rem;
 }
 
 .card {
@@ -204,19 +219,12 @@ p {
   height: auto;
 }
 
-.card-text h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: MidnightBlue;
-}
-
 .card-text h3,
 p {
   padding-bottom: 0.5rem;
 }
 
 .card-text a {
-  color: Crimson;
   padding-bottom: 1.5rem;
 }
 
@@ -225,18 +233,10 @@ p {
 }
 
 /* Thesis exhibit */
-.quote-image video {
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 2rem;
-}
-
-.thesis {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  color: MidnightBlue;
-  padding-top: 2rem;
+.thesis .quote h3 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
 }
 
 /* Footer */
@@ -244,10 +244,5 @@ footer {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   padding-bottom: 3rem;
-  border-top: 1px solid BurlyWood;
-}
-
-footer a {
-  color: Crimson;
-  margin-left: 1rem;
+  border-top: 1px solid hsl(40, 45%, 80%);
 }
