@@ -1,0 +1,40 @@
+html {
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  font-size: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.logo-title {
+  font-weight: bold;
+}
+
+.logo-title span:first-child {
+  color: blue;
+}
+
+.logo-title span:last-child {
+  color: red;
+}
+
+nav a {
+  color: FireBrick;
+  padding-left: 16px;
+  text-decoration: none;
+}
